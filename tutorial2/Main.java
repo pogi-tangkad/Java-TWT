@@ -4,7 +4,7 @@ package tutorial2;
 public class Main {
     public static void main(String[] args) {
 
-    /* Using Dog class
+    /* Using Dog class */
 
     System.out.println(Dog.count);
     Dog winter = new Dog("Winter", 3); 
@@ -15,9 +15,9 @@ public class Main {
     Dog gwarg = new Dog("Gwarg", 3); 
     System.out.println(Dog.count);
 
-    */
+    
 
-    /* Using Student class 
+    /* Using Student class */
 
     Student joe = new Student("Joe");
     Student bill = new Student("Bill");
@@ -33,18 +33,18 @@ public class Main {
     System.out.println(bill.toString());
     
 
-    */
+    
 
-    /* Using Outer and Inner classes
+    /* Using Outer and Inner classes */
 
     OuterClass oc = new OuterClass();
     oc.inner();
     OuterClass.InnerClass in = oc.new InnerClass();
     in.display();
 
-    */
+    
 
-    /* Interfaces 
+    /* Interfaces */
 
     Car ford = new Car();
     ford.speedUp(10);
@@ -55,9 +55,9 @@ public class Main {
 
     System.out.println(x);
 
-    */
+    
 
-    /* Enums
+    /* Enums */
 
     Level lvl = Level.LOW;
     Level[] arr = Level.values();
@@ -79,7 +79,7 @@ public class Main {
     System.out.println(lvl.getLvl());
     System.out.println(Level.valueOf("LOW"));
 
-    */
+    
 
 
     }
